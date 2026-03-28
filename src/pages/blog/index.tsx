@@ -1,0 +1,1 @@
+export { default } from '/purwadhika/compro2/src/pages/blog/page'
