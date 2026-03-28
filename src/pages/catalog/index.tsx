@@ -1,1 +1,1 @@
-export {default} from '/purwadhika/compro2/src/pages/catalog/page'
+export {default} from '../catalog/page'

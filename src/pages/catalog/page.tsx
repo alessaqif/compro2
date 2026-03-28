@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Backendless from "/purwadhika/compro2/src/lib/backendless"; // ✅ perbaiki path
+import Backendless from "backendless";
 import Navbar from "../../navbar";
 import { useNavigate } from "react-router-dom";
 

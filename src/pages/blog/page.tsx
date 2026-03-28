@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Backendless from "/purwadhika/compro2/src/lib/backendless";
+import Backendless from "backendless";
 import Navbar from "../../navbar";
 import { useNavigate } from "react-router-dom"; 
 
@@ -17,7 +17,7 @@ export default function Page() {
   const [data, setData] = useState<Blog[]>([]);
   const [isLogin, setIsLogin] = useState(false);
 
-  const navigate = useNavigate(); // ✅ init navigate
+  const navigate = useNavigate(); 
 
   useEffect(() => {
     const fetchData = async () => {

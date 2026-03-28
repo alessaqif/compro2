@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Backendless from "/purwadhika/compro2/src/lib/backendless";  
+import Backendless from "backendless";
 import { useNavigate, Link } from "react-router-dom";
 import Navbar from "../../navbar";
 

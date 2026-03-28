@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import Backendless from "/purwadhika/compro2/src/lib/backendless"; // ✅ sesuaikan path
+import Backendless from "backendless";
 import { useNavigate } from "react-router-dom";
 
 export default function CreateCatalog() {
